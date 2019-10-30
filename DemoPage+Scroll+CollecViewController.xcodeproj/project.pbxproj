@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDE1E0DF23695E3100975951 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE1E0DE23695E3100975951 /* AppDelegate.m */; };
+		FDE1E0E223695E3100975951 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE1E0E123695E3100975951 /* ViewController.m */; };
+		FDE1E0E523695E3100975951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE1E0E323695E3100975951 /* Main.storyboard */; };
+		FDE1E0E723695E3200975951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE1E0E623695E3200975951 /* Assets.xcassets */; };
+		FDE1E0EA23695E3200975951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE1E0E823695E3200975951 /* LaunchScreen.storyboard */; };
+		FDE1E0ED23695E3300975951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE1E0EC23695E3300975951 /* main.m */; };
+		FDE1E0F723695E3300975951 /* DemoPage_Scroll_CollecViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE1E0F623695E3300975951 /* DemoPage_Scroll_CollecViewControllerTests.m */; };
+		FDE1E10223695E3300975951 /* DemoPage_Scroll_CollecViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE1E10123695E3300975951 /* DemoPage_Scroll_CollecViewControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDE1E0F323695E3300975951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE1E0D223695E3100975951 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDE1E0D923695E3100975951;
+			remoteInfo = "DemoPage+Scroll+CollecViewController";
+		};
+		FDE1E0FE23695E3300975951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE1E0D223695E3100975951 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDE1E0D923695E3100975951;
+			remoteInfo = "DemoPage+Scroll+CollecViewController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDE1E0DA23695E3100975951 /* DemoPage+Scroll+CollecViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DemoPage+Scroll+CollecViewController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE1E0DD23695E3100975951 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDE1E0DE23695E3100975951 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDE1E0E023695E3100975951 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDE1E0E123695E3100975951 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDE1E0E423695E3100975951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDE1E0E623695E3200975951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDE1E0E923695E3200975951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDE1E0EB23695E3300975951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE1E0EC23695E3300975951 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDE1E0F223695E3300975951 /* DemoPage+Scroll+CollecViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DemoPage+Scroll+CollecViewControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE1E0F623695E3300975951 /* DemoPage_Scroll_CollecViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoPage_Scroll_CollecViewControllerTests.m; sourceTree = "<group>"; };
+		FDE1E0F823695E3300975951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE1E0FD23695E3300975951 /* DemoPage+Scroll+CollecViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DemoPage+Scroll+CollecViewControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE1E10123695E3300975951 /* DemoPage_Scroll_CollecViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoPage_Scroll_CollecViewControllerUITests.m; sourceTree = "<group>"; };
+		FDE1E10323695E3300975951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDE1E0D723695E3100975951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE1E0EF23695E3300975951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE1E0FA23695E3300975951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDE1E0D123695E3100975951 = {
+			isa = PBXGroup;
+			children = (
+				FDE1E0DC23695E3100975951 /* DemoPage+Scroll+CollecViewController */,
+				FDE1E0F523695E3300975951 /* DemoPage+Scroll+CollecViewControllerTests */,
+				FDE1E10023695E3300975951 /* DemoPage+Scroll+CollecViewControllerUITests */,
+				FDE1E0DB23695E3100975951 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDE1E0DB23695E3100975951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDE1E0DA23695E3100975951 /* DemoPage+Scroll+CollecViewController.app */,
+				FDE1E0F223695E3300975951 /* DemoPage+Scroll+CollecViewControllerTests.xctest */,
+				FDE1E0FD23695E3300975951 /* DemoPage+Scroll+CollecViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDE1E0DC23695E3100975951 /* DemoPage+Scroll+CollecViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FDE1E0DD23695E3100975951 /* AppDelegate.h */,
+				FDE1E0DE23695E3100975951 /* AppDelegate.m */,
+				FDE1E0E023695E3100975951 /* ViewController.h */,
+				FDE1E0E123695E3100975951 /* ViewController.m */,
+				FDE1E0E323695E3100975951 /* Main.storyboard */,
+				FDE1E0E623695E3200975951 /* Assets.xcassets */,
+				FDE1E0E823695E3200975951 /* LaunchScreen.storyboard */,
+				FDE1E0EB23695E3300975951 /* Info.plist */,
+				FDE1E0EC23695E3300975951 /* main.m */,
+			);
+			path = "DemoPage+Scroll+CollecViewController";
+			sourceTree = "<group>";
+		};
+		FDE1E0F523695E3300975951 /* DemoPage+Scroll+CollecViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDE1E0F623695E3300975951 /* DemoPage_Scroll_CollecViewControllerTests.m */,
+				FDE1E0F823695E3300975951 /* Info.plist */,
+			);
+			path = "DemoPage+Scroll+CollecViewControllerTests";
+			sourceTree = "<group>";
+		};
+		FDE1E10023695E3300975951 /* DemoPage+Scroll+CollecViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDE1E10123695E3300975951 /* DemoPage_Scroll_CollecViewControllerUITests.m */,
+				FDE1E10323695E3300975951 /* Info.plist */,
+			);
+			path = "DemoPage+Scroll+CollecViewControllerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDE1E0D923695E3100975951 /* DemoPage+Scroll+CollecViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE1E10623695E3300975951 /* Build configuration list for PBXNativeTarget "DemoPage+Scroll+CollecViewController" */;
+			buildPhases = (
+				FDE1E0D623695E3100975951 /* Sources */,
+				FDE1E0D723695E3100975951 /* Frameworks */,
+				FDE1E0D823695E3100975951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DemoPage+Scroll+CollecViewController";
+			productName = "DemoPage+Scroll+CollecViewController";
+			productReference = FDE1E0DA23695E3100975951 /* DemoPage+Scroll+CollecViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDE1E0F123695E3300975951 /* DemoPage+Scroll+CollecViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE1E10923695E3300975951 /* Build configuration list for PBXNativeTarget "DemoPage+Scroll+CollecViewControllerTests" */;
+			buildPhases = (
+				FDE1E0EE23695E3300975951 /* Sources */,
+				FDE1E0EF23695E3300975951 /* Frameworks */,
+				FDE1E0F023695E3300975951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDE1E0F423695E3300975951 /* PBXTargetDependency */,
+			);
+			name = "DemoPage+Scroll+CollecViewControllerTests";
+			productName = "DemoPage+Scroll+CollecViewControllerTests";
+			productReference = FDE1E0F223695E3300975951 /* DemoPage+Scroll+CollecViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDE1E0FC23695E3300975951 /* DemoPage+Scroll+CollecViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE1E10C23695E3300975951 /* Build configuration list for PBXNativeTarget "DemoPage+Scroll+CollecViewControllerUITests" */;
+			buildPhases = (
+				FDE1E0F923695E3300975951 /* Sources */,
+				FDE1E0FA23695E3300975951 /* Frameworks */,
+				FDE1E0FB23695E3300975951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDE1E0FF23695E3300975951 /* PBXTargetDependency */,
+			);
+			name = "DemoPage+Scroll+CollecViewControllerUITests";
+			productName = "DemoPage+Scroll+CollecViewControllerUITests";
+			productReference = FDE1E0FD23695E3300975951 /* DemoPage+Scroll+CollecViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDE1E0D223695E3100975951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = VoMinhTuanIOS;
+				TargetAttributes = {
+					FDE1E0D923695E3100975951 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					FDE1E0F123695E3300975951 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = FDE1E0D923695E3100975951;
+					};
+					FDE1E0FC23695E3300975951 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = FDE1E0D923695E3100975951;
+					};
+				};
+			};
+			buildConfigurationList = FDE1E0D523695E3100975951 /* Build configuration list for PBXProject "DemoPage+Scroll+CollecViewController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDE1E0D123695E3100975951;
+			productRefGroup = FDE1E0DB23695E3100975951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDE1E0D923695E3100975951 /* DemoPage+Scroll+CollecViewController */,
+				FDE1E0F123695E3300975951 /* DemoPage+Scroll+CollecViewControllerTests */,
+				FDE1E0FC23695E3300975951 /* DemoPage+Scroll+CollecViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDE1E0D823695E3100975951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE1E0EA23695E3200975951 /* LaunchScreen.storyboard in Resources */,
+				FDE1E0E723695E3200975951 /* Assets.xcassets in Resources */,
+				FDE1E0E523695E3100975951 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE1E0F023695E3300975951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE1E0FB23695E3300975951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDE1E0D623695E3100975951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE1E0E223695E3100975951 /* ViewController.m in Sources */,
+				FDE1E0ED23695E3300975951 /* main.m in Sources */,
+				FDE1E0DF23695E3100975951 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE1E0EE23695E3300975951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE1E0F723695E3300975951 /* DemoPage_Scroll_CollecViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE1E0F923695E3300975951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE1E10223695E3300975951 /* DemoPage_Scroll_CollecViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDE1E0F423695E3300975951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDE1E0D923695E3100975951 /* DemoPage+Scroll+CollecViewController */;
+			targetProxy = FDE1E0F323695E3300975951 /* PBXContainerItemProxy */;
+		};
+		FDE1E0FF23695E3300975951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDE1E0D923695E3100975951 /* DemoPage+Scroll+CollecViewController */;
+			targetProxy = FDE1E0FE23695E3300975951 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDE1E0E323695E3100975951 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE1E0E423695E3100975951 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDE1E0E823695E3200975951 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE1E0E923695E3200975951 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDE1E10423695E3300975951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDE1E10523695E3300975951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDE1E10723695E3300975951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN3S5J5DY2;
+				INFOPLIST_FILE = "DemoPage+Scroll+CollecViewController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Demo.DemoPage-Scroll-CollecViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDE1E10823695E3300975951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN3S5J5DY2;
+				INFOPLIST_FILE = "DemoPage+Scroll+CollecViewController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Demo.DemoPage-Scroll-CollecViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDE1E10A23695E3300975951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN3S5J5DY2;
+				INFOPLIST_FILE = "DemoPage+Scroll+CollecViewControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Demo.DemoPage-Scroll-CollecViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoPage+Scroll+CollecViewController.app/DemoPage+Scroll+CollecViewController";
+			};
+			name = Debug;
+		};
+		FDE1E10B23695E3300975951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN3S5J5DY2;
+				INFOPLIST_FILE = "DemoPage+Scroll+CollecViewControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Demo.DemoPage-Scroll-CollecViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoPage+Scroll+CollecViewController.app/DemoPage+Scroll+CollecViewController";
+			};
+			name = Release;
+		};
+		FDE1E10D23695E3300975951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN3S5J5DY2;
+				INFOPLIST_FILE = "DemoPage+Scroll+CollecViewControllerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Demo.DemoPage-Scroll-CollecViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DemoPage+Scroll+CollecViewController";
+			};
+			name = Debug;
+		};
+		FDE1E10E23695E3300975951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN3S5J5DY2;
+				INFOPLIST_FILE = "DemoPage+Scroll+CollecViewControllerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Demo.DemoPage-Scroll-CollecViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DemoPage+Scroll+CollecViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDE1E0D523695E3100975951 /* Build configuration list for PBXProject "DemoPage+Scroll+CollecViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE1E10423695E3300975951 /* Debug */,
+				FDE1E10523695E3300975951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE1E10623695E3300975951 /* Build configuration list for PBXNativeTarget "DemoPage+Scroll+CollecViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE1E10723695E3300975951 /* Debug */,
+				FDE1E10823695E3300975951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE1E10923695E3300975951 /* Build configuration list for PBXNativeTarget "DemoPage+Scroll+CollecViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE1E10A23695E3300975951 /* Debug */,
+				FDE1E10B23695E3300975951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE1E10C23695E3300975951 /* Build configuration list for PBXNativeTarget "DemoPage+Scroll+CollecViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE1E10D23695E3300975951 /* Debug */,
+				FDE1E10E23695E3300975951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDE1E0D223695E3100975951 /* Project object */;
+}
