@@ -1,0 +1,6 @@
+framework module Pods_DemoPage_Scroll_CollecViewController {
+  umbrella header "Pods-DemoPage+Scroll+CollecViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
