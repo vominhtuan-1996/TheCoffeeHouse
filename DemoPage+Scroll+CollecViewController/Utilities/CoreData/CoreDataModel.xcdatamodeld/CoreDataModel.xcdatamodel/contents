@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14492.1" systemVersion="19B88" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="AccountGoogle" representedClassName="AccountGoogle" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fullname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Food" representedClassName="Food" isAbstract="YES" syncable="YES">
+        <attribute name="fullname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idFood" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LocationGPS" representedClassName="LocationGPS" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dictrict" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fullname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitube" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longtitube" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Shopping" representedClassName="Shopping" syncable="YES">
+        <attribute name="fullname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idsanpham" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="soluong" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sumprice" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AccountGoogle" positionX="18" positionY="144" width="128" height="105"/>
+        <element name="Food" positionX="18" positionY="81" width="128" height="120"/>
+        <element name="LocationGPS" positionX="18" positionY="108" width="128" height="150"/>
+        <element name="Shopping" positionX="27" positionY="153" width="128" height="135"/>
+    </elements>
+</model>
