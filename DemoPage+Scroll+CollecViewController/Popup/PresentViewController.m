@@ -162,12 +162,10 @@
         NSLog(@"Data saved successfully ..");
         UIAlertController *shoppingAlert = [UIAlertController alertControllerWithTitle:@"Thông báo" message:@"Bạn đã đặt hàng thành công !" preferredStyle:UIAlertControllerStyleAlert];
         UIAlertAction *actionOK = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
-           // shoppingObject = newData;
-          
-        [self dismissViewControllerAnimated:YES completion:nil];
+           [self dismissViewControllerAnimated:NO completion:nil];
         }];
         [shoppingAlert addAction:actionOK];
-        [self presentViewController:shoppingAlert animated:YES completion:nil];
+        [self presentViewController:shoppingAlert animated:NO completion:nil];
         
     }
     

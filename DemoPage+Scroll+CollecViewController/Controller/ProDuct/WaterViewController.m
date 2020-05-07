@@ -32,9 +32,6 @@
     [self.collectionView setCollectionViewLayout:flowLayout];
     self.collectionView.alwaysBounceVertical = YES;
     [self.collectionView setBounces:YES];
-   // self.collectionView.backgroundColor = [UIColor grayColor];
-
-
     self.collectionView.delegate = self;
     self.collectionView.dataSource = self;
     
@@ -99,7 +96,6 @@
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *cells = @"CollectionViewCell";
-   // Food *objectFood =
     CollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cells forIndexPath:indexPath];
     cell.delegate = self;
     cell.index = indexPath.row;

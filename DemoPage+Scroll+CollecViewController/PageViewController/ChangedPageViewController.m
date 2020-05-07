@@ -42,7 +42,7 @@
     [self.pageViewController setViewControllers:@[initVC] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
     [UIView animateWithDuration:0.2 animations:^{
         [self.lineView setFrame:CGRectMake(0, self.headerView.frame.size.height - 1, self.headerView.frame.size.width/3, 1)];
-        [self.lineView layoutIfNeeded];
+        [self.lineView setNeedsLayout];
     }];
 }
 - (IBAction)selectedButtonIndex1:(id)sender {
@@ -52,7 +52,7 @@
     
     [UIView animateWithDuration:0.2 animations:^{
         [self.lineView setFrame:CGRectMake(self.headerView.frame.size.width/3, self.headerView.frame.size.height - 1, self.headerView.frame.size.width/3, 1)];
-        [self.lineView layoutIfNeeded];
+        [self.lineView setNeedsLayout];
     }];
     
 }
@@ -63,7 +63,7 @@
     
     [UIView animateWithDuration:0.2 animations:^{
         [self.lineView setFrame:CGRectMake(self.headerView.frame.size.width*2 / 3, self.headerView.frame.size.height - 1, self.headerView.frame.size.width/3, 1)];
-        [self.lineView layoutIfNeeded];
+        [self.lineView setNeedsLayout];
     }];
    
 }
