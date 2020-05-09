@@ -211,6 +211,7 @@
 		FD570C41236A8E66006A13B2 /* ChangedPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangedPageViewController.m; sourceTree = "<group>"; };
 		FD570C44236AC86C006A13B2 /* PresentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
 		FD570C45236AC86C006A13B2 /* PresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+		FD59C54C24667EB7002643FE /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		FD5B282223866A3D00D14E7E /* AccountGoogle+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AccountGoogle+CoreDataProperties.h"; sourceTree = "<group>"; };
 		FD5B282323866A3E00D14E7E /* AccountGoogle+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AccountGoogle+CoreDataProperties.m"; sourceTree = "<group>"; };
 		FD5B282423866A3E00D14E7E /* AccountGoogle+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AccountGoogle+CoreDataClass.h"; sourceTree = "<group>"; };
@@ -417,6 +418,7 @@
 		FD2DC402237516DB00ED8DB2 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				FD59C54B24667E91002643FE /* Define */,
 				FDA9BD19237258DE00D892BB /* CoreData */,
 			);
 			path = Utilities;
@@ -492,6 +494,14 @@
 				FD570C45236AC86C006A13B2 /* PresentViewController.m */,
 			);
 			path = Popup;
+			sourceTree = "<group>";
+		};
+		FD59C54B24667E91002643FE /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				FD59C54C24667EB7002643FE /* Define.h */,
+			);
+			path = Define;
 			sourceTree = "<group>";
 		};
 		FD5B281A238667DA00D14E7E /* Login */ = {

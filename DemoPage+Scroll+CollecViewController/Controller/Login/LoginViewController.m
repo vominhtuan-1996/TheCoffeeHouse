@@ -11,7 +11,11 @@
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import "AppDelegate.h"
+#import "Define.h"
+
 @interface LoginViewController ()<UIApplicationDelegate>
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *constrainWidthButtonGoogle;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *constraiWidthButtonFaceBook;
 //@property (assign , nonatomic) BOOL isShowController;
 @property (retain, nonatomic) FBSDKLoginButton *loginButton;
 @end
@@ -42,6 +46,16 @@
     [self.loginButton addTarget:self action:@selector(loginFaceBookButtonClick:) forControlEvents:UIControlEventTouchUpInside];
     self.faceBookView.backgroundColor = [UIColor blueColor];
     self.googleView.alpha = 2;
+    
+    int widthButton;
+    if (SCREEN_WIDTH <= 320 ) {
+        widthButton = SCREEN_WIDTH - 60;
+    } else {
+        widthButton = SCREEN_WIDTH - 120;
+    }
+    self.constraiWidthButtonFaceBook.constant = widthButton;
+    self.constrainWidthButtonGoogle.constant = widthButton;
+    
 
     UITapGestureRecognizer *loginCustomFaceBookButtonClick = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(loginCustomFaceBookButtonClick:)];
     [self.faceBookView addGestureRecognizer:loginCustomFaceBookButtonClick];
